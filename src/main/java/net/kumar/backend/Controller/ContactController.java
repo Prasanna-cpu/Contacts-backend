@@ -16,6 +16,8 @@ import java.nio.file.Paths;
 import static net.kumar.backend.Utils.Constant.Constant.PHOTO_DIR;
 import static org.springframework.http.MediaType.*;
 
+
+@CrossOrigin(origins = "http://localhost:5000")
 @RestController
 @RequestMapping("/contacts")
 @RequiredArgsConstructor
